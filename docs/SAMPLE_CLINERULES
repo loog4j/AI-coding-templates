@@ -1,0 +1,74 @@
+# Sample Project - Cline Rules
+
+## Project Overview
+This is a sample project demonstrating the use of the project management template system. Replace this with your actual project description.
+
+## Project Structure
+```
+/sample-project/
+├── MASTER_PLAN.md      # Renamed from template
+├── PROGRESS.md         # Real-time progress tracking
+├── tasks/              # Individual task files
+│   ├── TASK-01-setup.md
+│   ├── TASK-02-config.md
+│   ├── TASK-03-implementation.md
+│   └── ...
+├── .clinerules         # This file (copied from PROJECT_CLINERULES.md)
+├── src/                # Project source code
+├── tests/              # Test files
+└── docs/               # Documentation
+```
+
+## Task Execution Order
+1. Start with MASTER_PLAN.md for project overview
+2. Execute tasks sequentially: TASK-01 → TASK-02 → TASK-03 → etc.
+3. Each task has prerequisites that must be completed first
+4. Validate each task completion before moving to the next
+
+## Key Information
+- **Working Directory**: /path/to/your/project
+- **Technology Stack**: [Your tech stack here]
+- **External Dependencies**: [APIs, services, databases]
+- **Target Environment**: [Development/staging/production details]
+
+## Development Guidelines
+1. Always check task prerequisites before starting
+2. Update PROGRESS.md after every significant action
+3. Test incrementally after each major component
+4. Document any deviations from the plan
+5. Validate all steps using provided commands
+
+## Testing Requirements
+- Run validation commands after each step
+- Test with various scenarios (success/failure cases)
+- Verify all integrations work correctly
+- Ensure error handling works for edge cases
+- Document test results in PROGRESS.md
+
+## Critical Rules (DO NOT IGNORE)
+1. **READ PROGRESS.md FIRST** before starting any work
+2. **UPDATE PROGRESS.md** after every action
+3. **VALIDATE EVERY STEP** using provided commands
+4. **DOCUMENT DECISIONS** and deviations immediately
+5. **COMPLETE HANDOFF INFO** before ending sessions
+
+## Quick Start Commands
+```bash
+# Verify environment
+ls -la
+
+# Check project state
+cat PROGRESS.md
+
+# Run basic validation
+[your project-specific validation command]
+```
+
+## References
+- Template documentation: project-templates/README.md
+- Full rules: project-templates/PROJECT_CLINERULES.md
+- Task templates: project-templates/TASK_TEMPLATE.md
+
+---
+
+**REMEMBER**: This system only works if you consistently update PROGRESS.md and follow the validation procedures. When in doubt, document your current state!

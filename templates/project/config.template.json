@@ -1,0 +1,48 @@
+{
+  "project": {
+    "name": "[PROJECT_NAME]",
+    "type": "[PROJECT_TYPE]",
+    "description": "[PROJECT_DESCRIPTION]",
+    "version": "1.0.0",
+    "created": "[CREATION_DATE]",
+    "workingDirectory": "[WORKING_DIRECTORY]"
+  },
+  "technology": {
+    "stack": "[TECH_STACK]",
+    "language": "[PRIMARY_LANGUAGE]",
+    "framework": "[FRAMEWORK]",
+    "database": "[DATABASE_TYPE]",
+    "deployment": "[DEPLOYMENT_TARGET]"
+  },
+  "environment": {
+    "requirements": {
+      "node": "[NODE_VERSION]",
+      "python": "[PYTHON_VERSION]",
+      "docker": "[DOCKER_VERSION]"
+    },
+    "ports": {
+      "development": "[DEV_PORT]",
+      "api": "[API_PORT]",
+      "database": "[DB_PORT]"
+    }
+  },
+  "features": {
+    "authentication": "[AUTH_TYPE]",
+    "testing": "[TEST_FRAMEWORK]",
+    "linting": "[LINTER]",
+    "cicd": "[CI_CD_PLATFORM]"
+  },
+  "paths": {
+    "source": "src",
+    "tests": "tests",
+    "docs": "docs",
+    "build": "build",
+    "assets": "assets"
+  },
+  "tasks": {
+    "total": "[TOTAL_TASKS]",
+    "completed": 0,
+    "current": "TASK-01",
+    "lastUpdated": "[LAST_UPDATE]"
+  }
+}
